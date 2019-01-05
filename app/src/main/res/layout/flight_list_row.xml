@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+              android:layout_height="match_parent" android:orientation="horizontal">
+
+    <TextView
+            android:text="TextView"
+            android:layout_width="0px"
+            android:layout_height="match_parent" android:id="@+id/flight_list_row_callsign"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" android:paddingRight="32dp"
+            android:layout_weight="3"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0px"
+            android:layout_height="match_parent" android:layout_weight="4">
+        <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/flight_list_row_aircraft_type"/>
+        <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/flight_list_row_from"/>
+        <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/flight_list_row_to"/>
+        <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/flight_list_row_date"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0px"
+            android:layout_height="match_parent" android:layout_weight="2">
+        <TextView
+                android:text="0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/flight_list_row_start_hours"/>
+        <TextView
+                android:text="0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/flight_list_row_end_hours"/>
+        <TextView
+                android:text="0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/flight_list_row_hours"/>
+        <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/flight_list_row_id"/>
+    </LinearLayout>
+</LinearLayout>
